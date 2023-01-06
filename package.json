@@ -12,7 +12,10 @@
     "lint": "turbo run lint"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.4.0",
+    "@commitlint/config-conventional": "^17.4.0",
     "cz-git": "^1.4.1",
+    "husky": "^8.0.3",
     "turbo": "latest"
   },
   "engines": {
