@@ -2,6 +2,7 @@ import { MikroOrmModule } from '@mikro-orm/nestjs';
 import { Module, NotFoundException } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { validate as validateConfig } from '../config';
+import { EventsModule } from './events/events.module';
 
 @Module({
   imports: [
@@ -28,6 +29,8 @@ import { validate as validateConfig } from '../config';
         },
       }),
     }),
+
+    EventsModule,
   ],
   controllers: [],
   providers: [],
