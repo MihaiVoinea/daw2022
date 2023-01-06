@@ -4,8 +4,10 @@ importers:
 
   .:
     specifiers:
+      cz-git: ^1.4.1
       turbo: latest
     devDependencies:
+      cz-git: 1.4.1
       turbo: 1.6.3
 
   apps/api:
@@ -2017,6 +2019,10 @@ packages:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
+    dev: true
+
+  /cz-git/1.4.1:
+    resolution: {integrity: sha512-EOtuitcnfxde8t3NNTKh2YxEJhLXGiVlKSVaZipK3+DVo135rEUifAfqxkslM66Nf6ZO7a+3JR+XAOLhMXUAjQ==}
     dev: true
 
   /debug/2.6.9:

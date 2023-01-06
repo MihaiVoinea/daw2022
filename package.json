@@ -12,11 +12,16 @@
     "lint": "turbo run lint"
   },
   "devDependencies": {
+    "cz-git": "^1.4.1",
     "turbo": "latest"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
-  "packageManager": "pnpm@7.22.0"
+  "packageManager": "pnpm@7.22.0",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  }
 }
