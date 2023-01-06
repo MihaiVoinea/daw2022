@@ -1,5 +1,9 @@
 {
-  "name": "daw2022",
+  "name": "openticketing",
+  "author": {
+    "name": "Alex Voinea",
+    "email": "alex@brightcode.digital"
+  },
   "version": "0.0.0",
   "private": true,
   "workspaces": [
